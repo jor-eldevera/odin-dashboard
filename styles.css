@@ -12,6 +12,37 @@ header {
     grid-column: 2 / 3;
 }
 
+#header-top {
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: 1fr 7fr 1fr 1fr 2fr;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+
+    justify-self: center;
+}
+
+form {
+    height: 17px;
+}
+
+#search {
+    background-color: #cecece;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
 #sidebar {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
