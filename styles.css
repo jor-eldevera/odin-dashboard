@@ -125,6 +125,11 @@ form {
 .link {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #48B1EA;
 }
 
 .link p {
