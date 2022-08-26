@@ -37,10 +37,31 @@ form {
     width: 100%;
 }
 
-#profile-picture {
+#profile-picture-header-top {
     width: 50px;
     height: 50px;
     border-radius: 50px;
+}
+
+#header-bottom {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+
+#profile-picture-header-bottom {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+#header-bottom-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#header-bottom-buttons button {
+    margin: 5px 20px;
 }
 
 #sidebar {
