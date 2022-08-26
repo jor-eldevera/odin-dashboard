@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #1992d4;
+}
+
 body {
     display: grid;
     grid-template-rows: 1fr 4fr;
@@ -64,12 +68,20 @@ form {
 
 #header-bottom-buttons button {
     margin: 5px 20px;
+    background-color: var(--primary-color);
+    border: 0;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
 }
 
 /* SIDEBAR */
 #sidebar {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
+
+    background-color: var(--primary-color);
+    color: white;
 }
 
 #crosshairs {
