@@ -9,7 +9,7 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 180px 4fr;
     grid-template-columns: 1fr 4fr;
 
     min-height: 100vh;
@@ -56,12 +56,26 @@ form {
     width: 50px;
     height: 50px;
     border-radius: 50px;
+    justify-self: end;
+    margin-right: 20px;
 }
 
 #header-bottom {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 7fr 1fr;
+}
+
+#header-bottom img {
+    justify-self: center;
+}
+
+#header-bottom-text p {
+    margin-bottom: 5px;
+}
+
+#header-bottom-text h2 {
+    margin-top: 5px;
 }
 
 #profile-picture-header-bottom {
@@ -82,6 +96,7 @@ form {
     color: white;
     padding: 10px 25px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 /* SIDEBAR */
