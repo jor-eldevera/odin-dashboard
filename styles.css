@@ -127,6 +127,10 @@ form {
     grid-template-columns: 1fr 2fr;
 }
 
+.link p {
+    font-weight: bold;
+}
+
 #links-group-2 {
     margin-top: 25px;
 }
@@ -196,6 +200,10 @@ main {
     border-radius: 7px;
     box-shadow: 0px 5px 5px lightgray;
     padding: 5px 15px;
+}
+
+.announcements-section p {
+    color: gray;
 }
 
 /* TRENDING */
